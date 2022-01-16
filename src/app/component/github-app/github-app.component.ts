@@ -30,6 +30,7 @@ export class GithubAppComponent implements OnInit {
     this.displayUserName();
   
   }
+  // A function to get the users data from the service using subscription to the services observable
 
   displayUserName(){
     
@@ -42,6 +43,7 @@ export class GithubAppComponent implements OnInit {
   }
  
   // On click of the search button
+
   onClick(){
 
     this.GithubService.getUserName(this.username)
@@ -49,6 +51,7 @@ export class GithubAppComponent implements OnInit {
     //  console.log(this.storedUsers)
     this.reposGotten()
   }
+
  //Function tho get a users repository details
   reposGotten(){
     this.GithubService.getRepos().subscribe((data) => {
