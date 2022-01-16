@@ -32,7 +32,7 @@ export class GithubAppComponent implements OnInit {
   }
 
   displayUserName(){
-    // this.initialProfile()
+    
     this.GithubService.getUsers().subscribe((data) => {
       
       this.storedUsers = data
@@ -57,4 +57,5 @@ export class GithubAppComponent implements OnInit {
     })
   }
 
+  
 };
