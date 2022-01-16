@@ -18,9 +18,16 @@ export class GithubService {
   }
 
   getUserName(username:string){
+  //  this.username = "Nobella-Nyarari-Ejiofor"
    this.username = username ;
   }
 
+
+  public getRepos(): Observable<any>{
+    
+    return this.http.get<any[]>(`https://api.github.com/users/${this.username}/repos`)
+
+  }
 
 
 }
