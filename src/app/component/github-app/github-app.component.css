@@ -2,16 +2,67 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Exo+2:wght@600&family=Raleway&family=Special+Elite&display=swap');
 nav{
-  background-color: #d32c37;
+  background-color: #ac111b;
   font-family:  'Exo 2', sans-serif;
   text-align: center;
 }
 
-.nav-brand{
-  text-align: center;
-  margin:auto;
+/* .navbar-brand h2 {
+ color: black;
+ margin: auto;
+} */
+.form-control{
+  width: 30%;
+}
+.profile{
+  border: none;
+}
+.btn-sm{
+  background-color: #ac111b;
+  color: white;
+}
+.card-image img{
+  border: #ac111b solid;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
 }
 
-.card-image img{
-  border-radius: 50%;
+.headings ul li a {
+  color: black;
+  text-decoration: none;
+
+}
+.headings ul li {
+  list-style: none;
+ 
+}
+.headings ul li a:hover{
+  text-decoration: underline;
+}
+#reponumber{
+background-color: #ac111b;
+font-weight: bold;
+color: white;
+border-radius: 50%;
+height: 10px;
+width: 10px;
+}
+
+.card-header li {
+  list-style: none;
+}
+
+.container-repos{
+  height: 900px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-left: 100px;
+}
+
+footer{
+  background-color: #ac111b;
+  margin-top : 2rem;
+  margin-bottom: 0;
+  height: 80px;
 }
