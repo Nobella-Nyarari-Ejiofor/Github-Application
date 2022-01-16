@@ -49,7 +49,7 @@ export class GithubAppComponent implements OnInit {
     //  console.log(this.storedUsers)
     this.reposGotten()
   }
-
+ //Function tho get a users repository details
   reposGotten(){
     this.GithubService.getRepos().subscribe((data) => {
         this.repos = data ;
@@ -57,5 +57,5 @@ export class GithubAppComponent implements OnInit {
     })
   }
 
-  
+
 };
