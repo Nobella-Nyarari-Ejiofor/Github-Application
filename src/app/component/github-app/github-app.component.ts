@@ -9,6 +9,7 @@ import { GithubService } from 'src/app/github.service';
 export class GithubAppComponent implements OnInit {
  
   username = "";
+  
   storedUsers:any ={} ;
 
   constructor(private GithubService: GithubService) { }
@@ -21,10 +22,12 @@ export class GithubAppComponent implements OnInit {
     this.GithubService.getUsers().subscribe((data) => {
       this.storedUsers = data
        console.log(this.storedUsers)
+       
     })
   }
   
   onClick(){
+
     this.GithubService.getUserName(this.username)
      this.displayUserName()
     //  console.log(this.storedUsers)

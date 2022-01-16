@@ -11,7 +11,7 @@ export class GithubService {
 
   constructor(private http:HttpClient) { }
 
-  getUsers():Observable<any>{
+  public getUsers():Observable<any>{
    
     return this.http.get<any>("https://api.github.com/users/"+this.username)
     
