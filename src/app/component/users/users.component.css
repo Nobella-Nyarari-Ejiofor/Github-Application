@@ -1,0 +1,48 @@
+.form-control{
+  width: 30%;
+}
+.profile{
+  border: none;
+}
+.btn-sm{
+  background-color: #ac111b;
+  color: white;
+}
+.card-image img{
+  border: #ac111b solid;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.headings ul li a {
+  color: black;
+  text-decoration: none;
+
+}
+.headings ul li {
+  list-style: none;
+ 
+}
+.headings ul li a:hover{
+  text-decoration: underline;
+}
+#reponumber{
+background-color: #ac111b;
+font-weight: bold;
+color: white;
+border-radius: 50%;
+height: 10px;
+width: 10px;
+}
+
+.card-header li {
+  list-style: none;
+}
+
+.container-repos{
+  height: 900px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-left: 100px;
+}

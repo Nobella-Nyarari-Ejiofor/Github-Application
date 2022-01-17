@@ -6,10 +6,17 @@ nav{
 }
 .nav-links ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .nav-links ul li{
   list-style: none;
   padding-left: 2rem;
+}
+
+footer{
+  background-color: #ac111b;
+  margin-top : 2rem;
+  margin-bottom: 0;
+  height: 80px;
 }
 
