@@ -12,7 +12,10 @@ nav{
   list-style: none;
   padding-left: 2rem;
 }
-
+.nav-links ul li a:hover{
+  background-color: black;
+  
+}
 footer{
   background-color: #ac111b;
   margin-top : 2rem;

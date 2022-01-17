@@ -5,12 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule, routesArray } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
+import { TimepipePipe } from './timepipe.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    routesArray 
+    routesArray,
+    TimepipePipe 
   ],
   
   imports: [

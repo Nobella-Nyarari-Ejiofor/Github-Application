@@ -1,14 +1,7 @@
 
-<!-- end of the navbar -->
 <!-- section for the body -->
 <section >
    <div class="container-fluid mt-5">
-    <div class="search-bar">
-      <!-- <form class="form-group">
-        <input [(ngModel)]="username" #input="ngModel" type="search"  class= "form-control" name= "username" placeholder="Input Username"  >
-        <button (click)="onClick()" class=" mt-3 btn btn-sm"> Search</button>
-      </form> -->
-    </div>
      <div class="row">
        <div class="col md-3">
          <div class="card profile mt-5">
@@ -44,7 +37,9 @@
                 </div>
                 <div class="card-body">
                   <p>{{repo.description}}</p>
+                 
                   <p>Technologies used :  {{repo.topics}}</p>
+                  <p> {{repo.created_at|timepipe}}     </p>
                </div>
              
               </div>
