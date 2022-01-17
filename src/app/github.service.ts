@@ -13,14 +13,21 @@ export class GithubService {
 
   public getUsers():Observable<any>{
    
-    return this.http.get<any>("https://api.github.com/users/"+this.username)
+    return this.http.get<any>("https://api.github.com/users/" + this.username)
+    
+  }
+
+  public getMyUsername():Observable<any>{
+   
+    return this.http.get<any>("https://api.github.com/users/Nobella-Nyarari-Ejiofor")
     
   }
 
   getUserName(username:string){
-  //  this.username = "Nobella-Nyarari-Ejiofor"
+ 
    this.username = username ;
   }
+   
 
 
   public getRepos(): Observable<any>{
@@ -28,6 +35,11 @@ export class GithubService {
     return this.http.get<any[]>(`https://api.github.com/users/${this.username}/repos`)
 
   }
+  
+  public getMyRepos(): Observable<any>{
+    
+    return this.http.get<any[]>(`https://api.github.com/users/Nobella-Nyarari-Ejiofor/repos`)
 
+  }
 
 }

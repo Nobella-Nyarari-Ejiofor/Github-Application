@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Exo+2:wght@600&family=Raleway&family=Special+Elite&display=swap');
+nav{
+  background-color: #ac111b;
+  font-family:  'Exo 2', sans-serif;
+  text-align: center;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-links ul li{
+  list-style: none;
+  padding-left: 2rem;
+}
+
