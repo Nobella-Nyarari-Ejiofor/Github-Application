@@ -3,6 +3,8 @@ import { GithubService } from 'src/app/github.service';
 import { User } from 'src/app/model/user';
 import { Repositories } from 'src/app/model/repositories';
 
+
+
 @Component({
   selector: 'app-github-app',
   templateUrl: './github-app.component.html',
@@ -10,15 +12,21 @@ import { Repositories } from 'src/app/model/repositories';
 })
 export class GithubAppComponent implements OnInit {
  
+
   username = "";
   repos!: Repositories[];
   
   storedUsers:any ={} ;
+  
 
   constructor(private GithubService: GithubService) { }
 
+ 
+
+
   ngOnInit(): void {
     this.onClick();
+    // var myMoment: moment.Moment = moment("created_at")
   }
     
   // A function to get the users data from the service using subscription to the services observable

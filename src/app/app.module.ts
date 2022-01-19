@@ -8,6 +8,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { TimepipePipe } from './timepipe.pipe';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { TimepipePipe } from './timepipe.pipe';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+  
   
     
   ],
