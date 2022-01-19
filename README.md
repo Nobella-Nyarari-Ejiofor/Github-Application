@@ -25,35 +25,24 @@ GitHub Pages is designed to host your personal, organization, or project pages f
  The project will be evaluated based on the following objectives:
  
  * The project must contain a well-designed landing page that displays your GitHub information such as your username, your profile photos and a list of your repositories.
- *  You must place your access key inside the environment.ts file and place it inside the gitignore file.
-You must create a HTTP service that uses a promise to make the requests to the GitHub API.
-The HTTP request should be able to search for both GitHub users and GitHub repositories.
-Your project must have two classes for the user and repository.
-Your project must have a proper routing structure that links a GitHub username to the users GitHub repositories.
-Your project must have a separate routing module.
-5.Your project must contain a custom directive and a custom pipe.
-Your Project must be well designed and visually appealing and of portfolio quality.
-Your project must have a well-documented README file.
-Your project must be deployed and the deployed link should be submitted.
- 
- 
-* The Project should be created using the Angular CLI.
-* The project should contain a custom model class for the quote
-* The project should have a custom directive to highlight the quote that has the highest upvotes.
-* The project should contain a form component that has input sections for the quote, the author, and the person who submitted the quote.
-* Each quote must begin with an initial upvote and downvote value of 0
-* The project should have a component to display the quote and a component to display quote details. For example, the quote details could have the author of the     quote and the votes it has.
-* The project should contain a custom pipe that shows how much time has passed since the quote was created. 
+ *  The access key should be placed inside the environment.ts file and place it inside the gitignore file.
+ *  There should be a HTTP service that uses a promise to make the requests to the GitHub API.
+ *  The HTTP request should be able to search for both GitHub users and GitHub repositories.
+ *  The project must have two classes for the user and repository.
+ *  The project must have a proper routing structure that links a GitHub username to the users GitHub repositories.
+ *  The project must have a separate routing module.
+ *  The project must contain a custom directive and a custom pipe.
+ *  The Project must be well designed and visually appealing and of portfolio quality.
+ *  The project must have a well-documented README file.
+ *  The project must be deployed and the deployed link should be submitted.
  
 
 ## BDD .
 * The project is created using Anguar-CLI.
-* On clicking the submit button without adding a quote , the user should get an akert.
-* On clicking the submit button the quote details should be added to the existing quotes.
-* The user should be able to delete a quote and it's details when the delet trash icon is clicked.
-* The is able to vote on whether they like or dislike a quote.
-* The user is able to see the quote with the highest upvotes and downvotes.
-* The user is able to interact with the page effeciently.
+* The user should access my github details on the landing page.
+* On searching a github user , the user should be able to see the github users: profile picture , followers , following , repositories and repositories details such as : time the repository was created , repository description and the number of repositories.
+* The user is bale to navigate through two pages : the landing page and the user's search page.
+
 
 ## Credits
  Many thanks to [w3schools](https://www.w3schools.com/) documentation and [freecodecamp](https://www.freecodecamp.org/) for putting up resources online. I have found the resources to be very efficient when conceptualizing this project.
