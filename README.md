@@ -1,9 +1,9 @@
-# QuoteOffice
+# Github-Application
 This is an application that allows a user to view my github details on the landing page .Also the user can searchy for other users and their github setails which include : their repositories, number of repositories , the creation time for their repository etc.
 
 ## Live link to this project's GitHub Pages.
 GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository.
-### [View Live Site](https://nobella-nyarari-ejiofor.github.io/QuoteOfficeApp/)
+### [View Live Site](https://nobella-nyarari-ejiofor.github.io/Github-Application/)
 
 
 ## Author
